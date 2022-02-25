@@ -25,7 +25,7 @@ You can us it like a TcpListener and client.
  - It uses [RFC 6455] protoclo 
 
 ## Limitations 
- - It can send max 65535 bytes of data 
+ - It can send max 65 535 bytes of data 
  - It can recieve 100 000 bytes
  - The receiving can be slow
 
