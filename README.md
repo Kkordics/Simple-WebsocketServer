@@ -3,7 +3,7 @@ This is a very simple Websocket server class.
 You can us it like a TcpListener and client.
 ## Usage
 ```bash
-  WebSocketServer server = new WebSocketServer(IPAddress.Parse("192.168.1.69"), 8080);
+  WebSocketServer server = new WebSocketServer(IPAddress.Parse("192.168.1.69"), 8080);//Use your own local ip (ipv4)
   server.Start();
   WebSocketClient client = server.AcceptWebsocketClient();
 ```
