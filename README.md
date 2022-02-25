@@ -16,7 +16,7 @@ You can us it like a TcpListener and client.
 ## Installation
 
  - Copy the Websocket.cs file in the same folder as the main program. Then call the library (using Websockets)in the main program.
- - Host the .html website in the same network as the server
+ - Host the .html website in the same network as the server. For more help (https://www.youtube.com/results?search_query=visual+studio+code+html+hosting)
 
 ## Features
  - It can be multithreaded
