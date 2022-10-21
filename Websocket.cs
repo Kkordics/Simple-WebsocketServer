@@ -25,7 +25,7 @@
         /// <returns>true so cou can read</returns>
         public bool DataAviable 
         {
-            get {return WBClient.Available < 3; }
+            get { return NW.DataAvailable; }
         }
         /// <summary>
         /// Returns client IP
