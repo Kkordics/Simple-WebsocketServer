@@ -19,13 +19,13 @@
         /// </summary>
         public const int MaxDataLenght = 65535;
         
-         /// <summary>
+        /// <summary>
         /// Data aviable
         /// </summary>
         /// <returns>true so cou can read</returns>
-        public bool DataAviable()
+        public bool DataAviable 
         {
-            return WBClient.Available < 3;
+            get {return WBClient.Available < 3; }
         }
         /// <summary>
         /// Returns client IP
