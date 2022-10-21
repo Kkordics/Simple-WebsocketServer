@@ -18,7 +18,26 @@
         /// Max amount of bytes to send
         /// </summary>
         public const int MaxDataLenght = 65535;
-
+        
+         /// <summary>
+        /// Data aviable
+        /// </summary>
+        /// <returns>true so cou can read</returns>
+        public bool DataAviable()
+        {
+            return WBClient.Available < 3;
+        }
+        /// <summary>
+        /// Returns client IP
+        /// </summary>
+        /// <returns>Returns client IP</returns>
+        public string GetIP()
+        {
+            return ((IPEndPoint)WBClient.Client.RemoteEndPoint).Address.ToString();
+        }
+        
+        
+        
         /// <summary>
         /// True if server connected to WebClient
         /// </summary>
